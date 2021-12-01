@@ -1,0 +1,216 @@
+.container{
+  width: 100%;
+  text-align: center;
+  padding: 5% 0 0 0;
+ 
+}
+.insideBox{
+  width: 95%;
+  margin: 0 auto;
+}
+.insideBox h1{
+  margin: 1% 0 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 1% 0;
+}
+.changeBox{
+
+  background-image: url(https://www.zoho.com/in/invoice/home/svg/decor-ball.svg);
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: 55px 260px;
+  background-color: #0d5fcb;
+  border-radius: 15px;
+  padding: 5% 0%;
+}
+
+.navbar{
+  display:flex;
+  width: 70%;
+  margin: auto;
+  border: 1px solid white;
+  z-index: 1;
+}
+.navbar li{
+  list-style: none;
+  flex: 1;
+  font: size 30px; 
+}
+.navbar li a{
+  text-decoration: none;
+  color: white;
+  transition: .5s ease;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5% 0;
+  z-index: 5;
+}
+.navbar li a:hover{
+  color: yellowgreen;
+}
+.navbar li .toggleActive{
+  width: 100%;
+  color: black;
+  background-color: yellowgreen;
+}
+.navbar li .toggleActive:hover{
+  color: black;
+}
+.contentBox{
+
+  width: 85%;
+  margin: auto;
+  margin-top: 3%;
+  display: none;
+}
+.active-contentBox{
+  display: flex;
+  
+}
+@keyframes fromside {
+  0%{
+    transform: translate(-5%);
+  }
+}
+.contentBoxImg{
+  width:50%;
+  height: 100%;
+  animation: fromside 1s;
+}
+.contentBoxImg img{
+  width: 100%;
+  height: 100%;
+}
+
+.contentLetters{
+  width:50%;
+  color: white;
+  text-align: left;
+  padding: 8%;
+}
+.contentLetters h2{
+  margin: 0%;
+  padding: 0%;
+  margin-bottom: 2%;
+}
+.contentLetters p{
+  font-size: 1.2rem;
+  line-height: 1.7;
+  text-align: start;
+
+}
+.secondBox{
+  display: flex;
+  width: 85%;
+  margin: 7% auto;
+  align-items: center;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.225), 0 6px 20px 0 rgba(0, 0, 0, 0.225);
+  /* justify-content: space-evenly; */
+}
+.secondBox svg{
+  width: 50%;
+  height: 100%;
+}
+.secondBoxContent{
+  text-align: left;
+
+  padding: 5%;
+}
+.signUpFree{
+  padding: 3%;
+  background-color: #f0483e;
+  color: white;
+  border: 1px solid #f0483e;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.signUpFree:hover{
+  background-color: #f13025;
+}
+
+@media screen and (max-width: 1270px)  {
+  .changeBox{
+    background-image: none;
+  }
+  .insideBox{
+    width:100%;
+    background-color: #0d5fcb;
+    color: white;
+  }
+  .navbar{
+    border: none;
+  }
+  .navbar li a:hover{
+    border-bottom: 5px solid yellowgreen;
+  }
+  .navbar li .toggleActive{
+    width: 100%;
+    color: yellowgreen;
+    background-color: transparent;
+    border-bottom: 5px solid yellowgreen;
+  }
+  .navbar li .toggleActive:hover{
+    color: yellowgreen;
+  }
+  .active-contentBox{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contentBox{
+    width: 97%;
+  }
+  .contentBoxImg,.contentLetters{
+    width: 100%;
+    text-align: center;
+  }
+  .contentLetters{
+    padding: 1% 1% 2% 1%;
+  }
+  .contentLetters h2{
+    font-weight: 600;
+    padding: 0%;
+    margin: 0%;
+  }
+  .contentLetters p{
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+  }
+
+}
+@media screen and (max-width:940px){
+  .navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .navbar li:nth-child(4),.navbar li:nth-child(5){
+    transform: translateX(40%);
+  }
+  .secondBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    justify-content: center;
+  }
+  .secondBox svg{
+    width: 20%;
+  }
+  .secondBoxContent{
+    text-align: center;
+  }
+}
+@media screen and (max-width:640px){
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+      .navbar li:nth-child(4){
+        transform: translateX(0%);
+      }
+      .navbar li:nth-child(5){
+        transform: translateX(50%);
+      }
+}

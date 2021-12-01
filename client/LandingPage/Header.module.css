@@ -1,0 +1,339 @@
+.header {
+  width: 100%;
+  height: 40px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 4px;
+  align-self: center;
+  align-content: center;
+  flex-direction: row;
+  /* position: fixed; */
+  background-color: #fff;
+}
+.zoho_logo {
+  width: 100px;
+  height: 40px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.header > ul > li {
+  text-decoration: none;
+  display: flex;
+  margin-right: 23px;
+  align-items: center;
+  justify-content: stretch;
+  align-self: center;
+  align-content: center;
+  font-weight: 500;
+}
+
+.header > ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+.header > ul > li > a {
+  font-size: 17px;
+  font-weight: 400px;
+  color: #000;
+  display: inline-block;
+  padding: 7px 0;
+  line-height: 20px;
+  align-items: center;
+  width: 100%;
+}
+.header > ul > li > a:hover {
+  color: rgb(3, 169, 245);
+}
+
+.banner {
+  height: 900px;
+  background-color: #002b67;
+}
+.heading {
+  width: 36%;
+  height: 400px;
+  margin-top: -290px;
+  margin-left: 8%;
+}
+
+.div_img {
+  margin-left: 13%;
+  margin-top: 170px;
+}
+.icon_div {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.btn_signup {
+  font-family: Arial;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  background: #f0483e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  height: 100%;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.golden_paragraph {
+  color: #f9d271;
+  padding: 4px 15px 5px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Roboto Slab;
+  border-top: #000;
+  border-bottom: 1px solid #f9d271;
+  border-top: 1px solid #f9d271;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 7%;
+}
+.btn_signin {
+  font-family: Arial;
+  color: #f0483e;
+  font-size: 15px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+.banner_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.invoice_logo {
+  height: 47px;
+  margin-top: 18px;
+
+  background-size: 42px 42px;
+  float: left;
+  display: block;
+
+  line-height: 50px;
+  cursor: pointer;
+  padding-left: 33px;
+}
+.invoice_logo_title {
+  color: #fff;
+  padding-left: 15px;
+  float: left;
+  display: block;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 22px;
+}
+
+.free_tag {
+  vertical-align: middle;
+  width: 47px;
+
+  padding-left: 5px;
+}
+.banner_list {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+.banner_list > ul > li {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+  padding-right: 35px;
+  align-items: center;
+}
+.banner_list > ul > li > a {
+  cursor: pointer;
+}
+.arrow {
+  vertical-align: middle;
+}
+.header_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  visibility: hidden;
+  position: absolute;
+  background-color: #fff;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -140px;
+  visibility: hidden;
+  display: none;
+  padding: 15px 20px;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  visibility: visible;
+  font-weight: 300px;
+  font-size: 19px;
+}
+.dropdown_content a:hover {
+  background-color: #ddd;
+  visibility: visible;
+}
+
+.header_dropdown:hover .dropdown_content {
+  display: block;
+  visibility: visible;
+}
+.dot_pattern {
+  position: absolute;
+  width: 420px;
+  top: 132px;
+  right: 0;
+  opacity: 0.5;
+}
+.header_img {
+  width: 460px;
+  height: 650px;
+  position: relative;
+  float: right;
+  background-color: #fff;
+  padding: 40px 40px 25px;
+  border-radius: 5px;
+  margin-right: 90px;
+  margin-top: -640px;
+}
+.form {
+  position: relative;
+}
+.heli {
+  font-size: 19px;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+.header_heading1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+}
+.header_heading2 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 650;
+}
+.header_heading3 {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 550;
+}
+.header_paragraph {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.form_field {
+  display: block;
+  width: 92%;
+  height: 50px;
+  padding: 5px 12px;
+  font-size: 17px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  margin-bottom: 27px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+.small_span {
+  font-size: 14px;
+  line-height: 15px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+.change_country {
+  text-decoration: underline;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.terms {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 600;
+}
+.label > a {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+
+.btn1 {
+  border: 1px solid #f0483e;
+  background-color: #de4038;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 18px 35px;
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 22px;
+  font-weight: 490;
+  font-size: 17px;
+}
+.btn1:hover {
+  background-color: #f11f14;
+}
+
+.banner_content > h2 {
+  color: #fff;
+  display: block;
+  font-size: 42px;
+  line-height: 50px;
+  font-family: Zoho Puvi SemiBold, -apple-system, BlinkMacSystemFont,
+    San Francisco, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI,
+    Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}

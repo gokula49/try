@@ -1,0 +1,28 @@
+.righticons{
+    display: flex;
+    /* margin-right: 1%; */
+}
+.new{
+    color: white;
+    background-color: #1abc9c;
+    border: none ;
+    border-radius: 3px;
+}
+.iconbutton{
+    border: none;
+    /* padding: 2%; */
+    border-radius: 3px;
+    /* padding-left: 5%; */
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+/* .icondiv{
+    padding-left: 4%;
+    padding-right: 4%;
+} */
+.tips{
+    border-left: 1px solid gainsboro;
+    cursor: pointer;
+}

@@ -1,0 +1,253 @@
+.container {
+  width: 100%;
+  /* height: 200vh; */
+}
+
+.bgimagetop {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+.bgimagebottom {
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+}
+.mainForm {
+  width: 50%;
+  height: 100%;
+  margin: 5% auto;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  border-radius: 30px 30px 0 0;
+}
+.formTop {
+  display: flex;
+  padding: 5% 5%;
+  background-color: #f3f8fe !important;
+  border-radius: 30px 30px 0 0;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.formsvglogo {
+  width: 35px;
+}
+.formTop h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.formsvgcross {
+  width: 15px;
+  cursor: pointer;
+}
+.formBottom {
+  padding: 5% 7%;
+}
+.formBottom h4 {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.inputTitle {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.763);
+}
+.input {
+  width: 100%;
+  padding: 15px 20px;
+  margin-top: 10px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border: 1px solid #ced4da;
+  outline-color: #ced4da;
+  box-shadow: slategrey;
+  font-size: 1rem;
+  color: black;
+  background-color: #fff;
+}
+.input:focus {
+  border: none;
+  color: black;
+  background-color: #fff;
+  font-weight: 500;
+  box-shadow: 0px 0px 10px 2px rgb(173, 177, 255);
+}
+.fourthTab,
+.secondTab {
+  display: flex;
+}
+.hide {
+  display: none;
+}
+.thirdVisible {
+  display: block;
+}
+.thirdSideBox {
+  display: flex;
+}
+
+.halfSize {
+  /* padding: 2%; */
+  width: 50%;
+}
+
+.halfSize_first {
+  padding-right: 1%;
+  width: 50%;
+}
+.halfSize_second {
+  width: 50%;
+  padding-left: 1%;
+}
+.sixthTab {
+  display: flex;
+  margin: 5% 0;
+}
+.radioButton {
+  display: flex;
+  /* width: 5%; */
+}
+.seventhTab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  width: 50%;
+}
+.buttonStart {
+  text-align: center;
+  border: none;
+  width: 150px;
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: white;
+  margin: 1%;
+  letter-spacing: 1px;
+  background-color: #419af9 !important;
+  border-color: #419af9 !important;
+  cursor: pointer;
+}
+.buttonBack {
+  cursor: pointer;
+  padding: 6%;
+  border: none;
+  width: 150px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  margin: 1%;
+}
+.privacyPolicy {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.privacyPolicy a:hover {
+  color: #419af9 !important;
+}
+.thirdinputTitle:hover {
+  color: #419af9 !important;
+  cursor: pointer;
+}
+/* 
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } */
+
+@media screen and (max-width: 992px) {
+  .formTop h2 {
+    font-size: 1rem;
+  }
+  .formsvglogo {
+    width: 20px;
+  }
+  .formsvgcross {
+    width: 10px;
+    cursor: pointer;
+  }
+  .fourthTab,
+  .secondTab {
+    display: flex;
+    flex-direction: column;
+  }
+  .formBottom h4 {
+    font-size: 1rem;
+  }
+  .inputTitle {
+    font-size: 1rem;
+  }
+  .halfSize_first,
+  .halfSize_second {
+    width: 100%;
+    padding: 0%;
+  }
+  .halfSize_second {
+    margin-top: 5%;
+  }
+  .buttonStart,
+  .buttonBack {
+    font-size: 0.7rem;
+  }
+}

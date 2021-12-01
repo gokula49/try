@@ -1,0 +1,168 @@
+@media screen and (max-width: 1150px){
+    .container{
+        background-color:rgb(42, 72, 245);
+        border-radius: 12px;
+        box-shadow: 0 8px 16px gainsboro,0 6px 16px gainsboro;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 100%;
+        align-items: center;
+
+    }
+    .row{
+        display: block;
+    }
+    .content{
+        padding: 8%;
+        text-align: center;
+    }
+    .title{
+        color: white;
+        
+    }
+    .description{
+        color:aliceblue;
+        margin-top: 1%;
+    }
+    .learnmore{
+        color: aqua;
+        margin-top: 1%;
+        text-decoration: underline;
+    }
+    .footer{
+        color:white;
+        padding-top: 10%;
+    }
+    .qrcode{
+        height: 12%;
+        width: 12%;
+        margin-right: 0%;
+        margin-top: -12%;
+    }
+    .icons{
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-around;
+    }
+    .icon{
+        border-radius: 50%;
+        background-color: blue;
+        height: 40px;
+        width: 40px;
+        padding: 6%;
+        margin-left: 5%;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+    .mobiles{
+        display: flex;
+        height: 50%;
+        width: 50%;
+        justify-content: center;
+    }
+    .android{
+        height: 100%;
+        width: 100%;
+        padding-right: 2%;
+        margin-left: 30%;
+        transition: all 1s ease;
+        /* margin-top: -20%; */
+    }
+    .ios{
+        height: 100%;
+        width: 100%;
+        padding-left: 2%;
+        transition: all 1s ease;
+        /* margin-top: 10%; */
+    }
+    .ribbon{
+        position: absolute;
+        right: 0;
+        margin-right: 5%;
+        bottom: -100%;
+    }
+}
+@media screen and (min-width: 1150px){
+    .container{
+        background-color:rgb(42, 72, 245);
+        border-radius: 12px;
+        box-shadow: 0 8px 16px gainsboro,0 6px 16px gainsboro;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 450px;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .content{
+        width: 65%;
+        padding: 8%;
+    }
+    .title{
+        color: white;
+        
+    }
+    .description{
+        color:aliceblue;
+        margin-top: 1%;
+    }
+    .learnmore{
+        color: aqua;
+        margin-top: 1%;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .footer{
+        color:white;
+        padding-top: 10%;
+    }
+    .qrcode{
+        height: 20%;
+        width: 20%;
+        margin-right: 15%;
+        margin-top: -12%;
+    }
+    .icons{
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-around;
+    }
+    .icon{
+        border-radius: 50%;
+        background-color: blue;
+        height: 40px;
+        width: 40px;
+        padding: 6%;
+        margin-left: 5%;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+    .mobiles{
+        display: flex;
+        height: 80%;
+        width: 80%;
+    }
+    .android{
+        height: 100%;
+        width: 100%;
+        padding-right: 2%;
+        transition: all 1s ease;
+        /* margin-top: -20%; */
+    }
+    .ios{
+        height: 100%;
+        width: 100%;
+        padding-left: 2%;
+        transition: all 1s ease;
+        /* margin-top: 10%; */
+    }
+    .ribbon{
+        position: absolute;
+        right: 0;
+        margin-right: 5%;
+        bottom: -4%;
+    }
+}

@@ -1,0 +1,228 @@
+.background {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: url(https://css.zohostatic.com/iam/M_4448185/v2/components/images/bg.svg)
+    transparent;
+  background-size: auto 100%;
+  z-index: -1;
+}
+.signin_container {
+  display: block;
+  width: 890px;
+  min-height: 520px;
+  background-color: #fff;
+  box-shadow: 0px 2px 30px #ccc6;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  margin-top: 7%;
+  overflow: hidden;
+}
+.signin_box {
+  width: 500px;
+  min-height: 520px;
+  height: auto;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 50px 50px;
+  border-radius: 2px;
+  transition: all 0.1s ease-in-out;
+  float: left;
+  overflow-y: auto;
+  display: table-cell;
+  border-right: 2px solid #f1f1f1;
+}
+.rightside_box {
+  width: 390px;
+  height: auto;
+  float: right;
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: #fff;
+  display: table-cell;
+  overflow: hidden;
+}
+.zoho_logo {
+  display: block;
+  height: 30px;
+  width: auto;
+  margin-bottom: 20px;
+  background: url(https://css.zohostatic.com/iam/M_4448185/v2/components/images/Zoho_logo.png)
+    no-repeat transparent;
+  background-size: auto 100%;
+}
+.login {
+  display: block;
+}
+.signin_head {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  line-height: 30px;
+  transition: all 0.1s ease-in-out;
+}
+.service_name {
+  line-height: 28px;
+  display: block;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+.textbox_div {
+  display: block;
+  margin-bottom: 30px;
+  position: relative;
+}
+.textbox_div span {
+  position: relative;
+  display: block;
+}
+.textbox {
+  display: block;
+  width: 100%;
+  height: 44px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-indent: 12px;
+  font-size: 16px;
+  outline: none;
+  padding: 1px 2px;
+  padding-right: 12px;
+  transition: all 0.2s ease-in-out;
+  background: #f8f8f8;
+  border: 1px solid #e4e4e4;
+  margin-top: 9%;
+  margin-bottom: 9%;
+}
+.btn_blue {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 44px;
+  border-radius: 4px;
+  letter-spacing: 0.5;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  margin: auto;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 2px 2px #fff;
+  background-color: #159aff;
+  color: #fff;
+}
+.btn_blue:disabled {
+  cursor: not-allowed;
+}
+.forget_pass {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0593ff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.line {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.signuplink {
+  width: 100%;
+  display: inline-block;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #555;
+}
+.signuplink a {
+  color: #159aff;
+  cursor: pointer;
+}
+.right_container {
+  display: block;
+}
+.right_container_image {
+  display: block;
+  width: 300px;
+  height: 240px;
+  margin: auto;
+}
+.right_container_head {
+  display: block;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+}
+.right_container_para {
+  display: block;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+
+  overflow: hidden;
+}
+.right_container_learn_more {
+  display: block;
+  height: 36px;
+  max-width: 160px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #ecf7fe;
+  color: #0091ff;
+  font-weight: 600;
+  border-radius: 18px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  overflow: hidden;
+  line-height: 20px;
+}
+.socialMediaLoginHidden {
+  display: none;
+}
+.socialMediaLogin {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1ch;
+  top: 30px;
+  margin-bottom: 30px;
+}
+.socialIcons {
+  display: flex;
+  gap: 1ch;
+  align-items: center;
+  justify-content: center;
+}
+.socialMediaLogin p {
+  font-size: 16px;
+  font-weight: 600;
+}

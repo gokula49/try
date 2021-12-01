@@ -1,0 +1,107 @@
+.otherappsDiv {
+  padding: 30px 30px 40px 30px;
+  border-bottom: 1px solid rgb(201, 197, 197);
+  display: flex;
+  flex-direction: column;
+  gap: 5ch;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h3::after,
+.title h3::before {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid rgb(167, 163, 163);
+  width: 400px;
+  margin: 0 2rem;
+  transform: translateY(-5px);
+}
+.otherapps {
+  display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+  gap: 3ch;
+  justify-content: center;
+}
+.otherapps p {
+  font-size: 8pt;
+  font-weight: 500;
+}
+.zohoBooks,
+.zohoSubscriptions,
+.zohoInventory,
+.zohoExpense,
+.zohoPayroll {
+  display: flex;
+  gap: 1ch;
+}
+.zohoBooks section,
+.zohoSubscriptions section,
+.zohoInventory section,
+.zohoExpense section,
+.zohoPayroll section {
+  display: flex;
+  flex-direction: column;
+}
+.zohoBooksimg {
+  transform: translateY(-5px);
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .title h3 {
+    text-align: center;
+    font-size: 11pt;
+  }
+  .title h3::before,
+  .title h3::after {
+    display: none;
+    content: "";
+  }
+  .otherapps {
+    gap: 3ch;
+    padding-left: 15%;
+    align-items: center;
+    justify-content: left;
+  }
+  .zohoBooks section,
+  .zohoSubscriptions section,
+  .zohoInventory section,
+  .zohoExpense section,
+  .zohoPayroll section {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(10px);
+  }
+
+  .zohoBooks,
+  .zohoSubscriptions,
+  .zohoInventory,
+  .zohoExpense,
+  .zohoPayroll {
+    display: flex;
+    gap: 3ch;
+  }
+  .zohoBooksimg {
+    transform: translateY(0);
+  }
+}
+@media (max-width: 1400px) and (min-width: 800px) {
+  .title h3::after,
+  .title h3::before {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid rgb(167, 163, 163);
+    width: 300px;
+    margin: 0 2rem;
+    transform: translateY(-5px);
+  }
+}

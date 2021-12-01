@@ -1,0 +1,140 @@
+.container {
+  width: 85%;
+  height: 100%;
+  left: 15%;
+  margin-top: 4%;
+  margin-left: 15%;
+}
+.top {
+  /* position: fixed; */
+  display: flex;
+  width: 100%;
+  padding: 1% 0;
+  justify-content: space-between;
+  margin: 0%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.307);
+}
+.topFirst {
+  justify-content: flex-start;
+}
+.topSecond {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+}
+.newButton {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  border: none;
+  padding: 3px 3%;
+  color: white;
+  font-weight: 500;
+}
+.settingsButton {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  padding: 3px 2%;
+  border: none;
+  margin: 0% 5%;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.topSecond h5 {
+  transform: translateY(30%);
+}
+.topSecond p {
+  transform: translateY(30%);
+  margin-left: 3%;
+  cursor: pointer;
+}
+.topSecond p:hover {
+  color: rgb(141, 141, 228);
+}
+.middle {
+  width: 100%;
+  height: 95vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middleCenter {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+.middleCenter h3 {
+  font-size: 1.5rem;
+  font-weight: 450;
+  letter-spacing: 1px;
+}
+.middleCenter p {
+  color: rgba(0, 0, 0, 0.912);
+}
+.middleCenter button {
+  padding: 2% 5%;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  text-transform: uppercase;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  letter-spacing: 1px;
+}
+.bottom {
+  width: 100%;
+  /* height: 200vh; */
+  background-color: rgba(255, 235, 235, 0.531);
+  padding: 7% 0 0;
+}
+.bottomCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 0;
+}
+.bottomCenter h4 {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.bottomSecond {
+  padding: 10% 0;
+  width: 40%;
+  margin: auto;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+.bottomSecond h4 {
+  font-size: 1.5rem;
+}
+.bottomSecond li {
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 950px) {
+  .top {
+    justify-content: space-evenly;
+  }
+  .topFirst {
+    justify-content: flex-start;
+  }
+  .topSecond {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+  }
+  .bottomSecond {
+    width: 80%;
+    margin: auto;
+    padding: 10% 0 10% 5%;
+  }
+}

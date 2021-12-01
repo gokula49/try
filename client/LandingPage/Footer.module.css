@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4ch;
+  background-color: rgb(233, 236, 233);
+  padding: 40px 40px 20px 40px;
+}
+.footerLinks {
+  display: flex;
+  font-size: 10pt;
+  color: black;
+  font-weight: 500;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 25px;
+  max-width: 60%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.footerLinks a:hover {
+  opacity: 0.5;
+}
+.h6 {
+  font-weight: 400;
+  font-size: 9pt;
+  text-align: center;
+}
+.span {
+  opacity: 0.5;
+}
+@media only screen and (max-width: 768px) {
+  .footerLinks {
+    display: grid;
+    font-size: 9pt;
+    color: black;
+    font-weight: 500;
+    min-width: 100%;
+    text-align: right;
+    grid-template-columns: repeat(2, auto);
+    cursor: pointer;
+    padding: 20px 20px 20px 20px;
+  }
+}

@@ -1,0 +1,275 @@
+.centrebanner{
+  height: 1460px;
+  width: 100%;
+  background-color: #002b67;
+  position: relative;
+  
+  
+}
+.inside_centrebanner{
+  margin-top: 20px;
+  background-color: #fff;
+  width: 96%;
+  height: 950px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 8px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  
+}
+.inside_centrebanner_header{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  
+  height: 200px;
+  top: 100px;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI";
+  color: rgb(51, 51, 51);
+  line-height: 50px;
+}
+.leftbanner{
+  display: flex;
+  width: 40%;
+  margin-left: 10%;
+  height: 650px;
+  margin-top: 16%;
+}
+
+ .flip_card_top {
+  position: absolute;
+  opacity: .7;
+  height: 400px;
+  margin-left: 260px;
+  margin-top: 160px;
+  /* margin-left: -16%;
+  margin-top: 15%; */
+ 
+} 
+.leftbanner_img{
+  z-index: 689;
+  height: 620px;
+  box-shadow: 0 3px 26px #e7eaf8;
+  border-radius: 10px; 
+ }
+ .progressbar{
+  margin-top: 0.7%;
+  width: 1%;
+  position: absolute;
+  height: 460px;
+  border-right: 1px solid black;
+  margin-left: 41%
+}
+.blue_box {
+  position: absolute;
+  width: 60px;
+  height: 170px;
+  background-color: #0d5fcb;
+  margin-left:483px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-animation: floating 4s linear infinite;
+  animation: floating 4s linear infinite;
+  z-index: 689;
+  margin-top: 50px;
+}
+.blue_box_icons{
+  
+    width: 20px;
+    margin-left: 5px;
+    padding: 15px 0;
+    border-bottom: 1px solid #F3F3F3;
+}
+.progressbar>ul{
+  list-style: none;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: -8px;
+  
+  
+}
+.progressbar>ul>li{
+  
+  margin-bottom: 60px;
+  box-shadow: inset 0 0 0 3px #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #6890f2;
+    border: 1px solid #6890f2;
+}
+  
+.rightbanner{
+  position: absolute;
+  width: 37%;
+  right: 8%;
+  margin-top: 16%;
+  height: 620px;
+}
+.a_header{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI";
+  color: rgb(51, 51, 51);
+}
+.span_header{
+  font-size: 28px;
+  font-weight: 540;
+  font-family: "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI";
+  color: rgb(51, 51, 51);
+  
+}
+.a_header_main{
+  margin-bottom: 40px;
+}
+
+.a_header:hover{
+  color:  rgb(51, 116, 216);
+}
+.span_header:hover{
+  color:  rgb(51, 116, 216);
+  
+}.rightbanner_content_list >ul{
+  list-style: none;
+  margin-left: 7%;
+}
+.rightbanner_content_list li:before {
+  content: url(https://zoho.com/invoice/images/mobile/tick-mark.svg);
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  left: -.2%;
+ margin-top: 2px;
+  
+}
+.rightbanner_content_para{
+  margin-top: -4%;
+  line-height: 33px;
+  font-size: 19px;
+  font-weight: 490;
+  width: 90%;
+  margin-bottom: 4%;
+}
+.rightbanner_content_list{
+  width: 80%;
+  font-size: 19px;
+  font-weight: 490; 
+}
+.rightbanner_content_list li{
+  margin-bottom: 3%;
+  line-height: 30px;
+}
+.ballcontainer{
+  position: absolute;
+  right: 0;
+  bottom: 4%;
+  
+  height: 22%;
+  width: 15%;
+  overflow: hidden;
+}.ball{ 
+  margin-left: 40%;
+  width: 100%;
+  height: 100%;
+  
+  
+  
+}
+.centrebanner_downicons {
+position: absolute;
+  fill: #fff;
+  width: 100%;
+  height: 450px;
+  margin-top: 1000px;
+  display: flex;
+  flex-direction: row;
+}
+.centrebanner_downicons_text{
+  width: 40%;
+ 
+  margin-left: 10%;
+}
+.centrebanner_downicons_text h1{
+  color: #fff;
+  
+  margin-top: 150px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 500;
+  width: 90%;
+margin-bottom: 30px;
+  
+}
+.centrebanner_downicons_icons{
+  width: 60%;
+  height: 250px;
+  margin-top: 150px;
+  margin-right: 5%;
+  margin-left: 4%;
+  
+  display: flex;
+  flex-direction: column;
+}
+.centrebanner_downicons_icons ul{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.centrebanner_downicons_icons li{
+  
+  height: 55px;
+  width: 280px;
+  border-radius: 8px;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: 490;
+  color: #fff;
+  
+ 
+  
+}
+.centrebanner_downicons_icons span{
+  vertical-align: middle;
+  display: inline;
+  
+  
+  
+}
+.centrebanner_downicons_icons svg{
+  vertical-align: middle;
+  margin-right: 13px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.centrebanner_downicons_icons li:hover{
+  text-align: center;
+  background-color: #fff;
+  color: #6697E2;
+  fill: #6697E2;
+}
+
+
+.centrebanner_downicons_text a{
+  color: rgb(13, 242, 242);
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+.right_arrow{
+  width: 18px;
+  margin-left: 5px;
+  margin-bottom: -3px;
+}
+.ribbon{
+  position: absolute;
+  bottom: 60px;
+}

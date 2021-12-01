@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10%;
+}
+
+.line{
+    transform: rotate(90deg);
+    height: 100px;
+    width: 100px;
+}
+.awards{
+    height: 200px;
+    width: 200px;
+}
+.leader{
+    height: 100px;
+    width: 100px;
+}
+@media screen and (max-width:1150px) {
+    .container{
+        justify-content: flex-start;
+    }
+    .line{
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .container{
+        display: block;
+    }
+}
